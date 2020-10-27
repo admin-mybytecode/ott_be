@@ -1,0 +1,7 @@
+[19-Jan-2019 09:50:47 Europe/London] PHP Parse error:  syntax error, unexpected '?' in /home/streamaz/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[20-Sep-2020 01:49:22 Asia/Calcutta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'mybytecode_ott'@'localhost' to database 'mybytecode_ott' in /home/res2hz825jvd/public_html/ott/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:27
+Stack trace:
+#0 /home/res2hz825jvd/public_html/ott/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(27): PDO->__construct('mysql:host=127....', 'mybytecode_ott', 'mybytecode_ott', Array)
+#1 /home/res2hz825jvd/public_html/ott/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=127....', 'mybytecode_ott', 'mybytecode_ott', Array)
+#2 /home/res2hz825jvd/public_html/ott/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'mybytecode_ott', 'mybytecode_ott', Array)
+#3 /home/res2hz825jvd/public_html/ott/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php in /home/res2hz825jvd/public_html/ott/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
