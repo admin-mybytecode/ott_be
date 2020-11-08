@@ -175,6 +175,7 @@ return array(
     'App\\SocialIcon' => $baseDir . '/app/SocialIcon.php',
     'App\\Subcomment' => $baseDir . '/app/Subcomment.php',
     'App\\Subtitles' => $baseDir . '/app/Subtitles.php',
+    'App\\Temple' => $baseDir . '/app/Temple.php',
     'App\\TvSeries' => $baseDir . '/app/TvSeries.php',
     'App\\User' => $baseDir . '/app/User.php',
     'App\\UserRating' => $baseDir . '/app/UserRating.php',

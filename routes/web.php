@@ -219,8 +219,8 @@ Route::group(['middleware' => ['web', 'auth', 'is_admin', 'switch_languages']], 
   Route::get('admin/user/status/{id}','UsersController@changestatus');
   
   Route::get('admin/temple', 'TempleController@show');
-  Route::get('admin/temple/create', 'TempleController@create');
-  Route::post('admin/temple/store', 'TempleController@store');
+  Route::get('admin/temple/create', 'TempleController@create')->name('temple.create');
+  Route::post('admin/temple/storeTemple/', 'TempleController@store');
 
   Route::get('user/subscription/{id}', 'UsersController@change_subscription_show')->name('change_subscription_show');
   Route::post('user/subscription', 'UsersController@change_subscription')->name('change_subscription');

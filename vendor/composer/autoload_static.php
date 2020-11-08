@@ -1066,6 +1066,7 @@ class ComposerStaticInitf7c60676c542ac68133394f09a1421ee
         'App\\SocialIcon' => __DIR__ . '/../..' . '/app/SocialIcon.php',
         'App\\Subcomment' => __DIR__ . '/../..' . '/app/Subcomment.php',
         'App\\Subtitles' => __DIR__ . '/../..' . '/app/Subtitles.php',
+        'App\\Temple' => __DIR__ . '/../..' . '/app/Temple.php',
         'App\\TvSeries' => __DIR__ . '/../..' . '/app/TvSeries.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'App\\UserRating' => __DIR__ . '/../..' . '/app/UserRating.php',

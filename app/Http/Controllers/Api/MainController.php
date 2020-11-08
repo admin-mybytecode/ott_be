@@ -33,6 +33,7 @@ use App\Wishlist;
 use App\FooterTranslation;
 use DB;
 use App\Blog;
+use App\Temple;
 use App\Adsense;
 use App\PaypalSubscription;
 use App\AuthCustomize;
@@ -57,6 +58,11 @@ class MainController extends Controller
   public function faq(){
     $faqs = Faq::all()->toArray();
     return response()->json(array('faqs' =>$faqs), 200);
+  }
+
+  public function temple(){
+    $temples = Temple::all()->toArray();
+    return response()->json(array('temple' =>$temples), 200);
   }
 
   public function slider(){

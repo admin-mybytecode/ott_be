@@ -79,4 +79,7 @@ Route::group(['middleware' => ['auth:api','is_blocked']], function (){
   Route::get('notifications', 'Api\NotificationController@allnotification');
   Route::get('readnotification/{id}', 'Api\NotificationController@notificationread');
 
+  Route::get('temple', 'Api\MainController@temple');
+
 });
+Route::get('temple', 'Api\MainController@temple');
